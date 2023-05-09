@@ -1,0 +1,7 @@
+n1 = float(input('Nota do 3 bimestre: '))
+n2 = float(input('Nota do 4 bimestre: '))
+print(f'No primeiro bimestre, João tirou {n1} e no segundo tirou {n2}, então ficou com {(n1+n2)/2} na média final do semestre.')
+#n1 = float(input('Digite a primeira nota: '))
+#n2 = float(input('digite a segunda nota: '))
+#m = ((n1 + n2) / 2 )
+#print('Joãozinho tirou {} na primeira prova e {} na segunda prova, portanto ele ficou com {:.1f} pontos na média'.format(n1, n2, m))
