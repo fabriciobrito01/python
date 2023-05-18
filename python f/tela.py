@@ -18,19 +18,19 @@ while True:                             # The Event Loop
     
     if event == 'Soma':
         soma = int(values['val1']) + int(values['val2'])
-        sg.popup(f'A soma é {soma}')
+        sg.popup(f'A soma é {soma}', grab_anywhere=True)
     
     if event == 'Subtrai':
         subtrai = int(values['val1']) - int(values['val2'])
-        sg.popup(f'A subtração é {subtrai}')
+        sg.popup(f'A subtração é {subtrai}', grab_anywhere=True)
         
     if event == 'Multiplica':
         multiplica = int(values['val1']) * int(values['val2'])
-        sg.popup(f'A multiplicação é {multiplica}')
+        sg.popup(f'A multiplicação é {multiplica}', grab_anywhere=True)
         
     if event == 'Divide':
         divide = int(values['val1']) / int(values['val2'])
-        sg.popup(f'A divisão é {divide:.2f}')
+        sg.popup(f'A divisão é {divide:.2f}', grab_anywhere=True)
         
 
 window.close()
